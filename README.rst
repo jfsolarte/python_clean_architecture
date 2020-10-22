@@ -20,13 +20,36 @@ python_clean_architecture
 
 
 * Free software: MIT license
-* Documentation: https://python-clean-architecture.readthedocs.io.
 
+* Implementación de arquitectura limpia. 
 
-Features
+Instalación 
 --------
 
-* TODO
+* para su instalación 
+
+        1. git clone
+        2. cd python_clean_architecture  
+        3. source venv3/bin/activate
+        4. pip install -r requirements/dev.txt
+
+Pruebas 
+--------
+NO ESTA TODA LA COVERTURA
+        5. py.test --cov-report term-missing --cov=python_clean_architecture
+
+Ejecución 
+--------
+
+        6. flask run
+
+esto ejecutara en localhost:5000
+
+Ejecución postman 
+--------
+
+        7. el archivo /python.postman_collection.json tiene una petición post con el requerimiento. 
+
 
 Credits
 -------
